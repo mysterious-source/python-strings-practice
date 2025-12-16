@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>strings.py</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #7a7e85;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+.s4 { color: #2aacb8;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+strings.py</font>
+</center></td></tr></table>
+<pre><span class="s0">#First version of strings practice</span>
+<span class="s1">first_name </span><span class="s2">= </span><span class="s1">input</span><span class="s2">(</span><span class="s3">&quot;Enter your first name:&quot;</span><span class="s2">)</span>
+<span class="s1">second_name </span><span class="s2">= </span><span class="s1">input</span><span class="s2">(</span><span class="s3">&quot;Enter your middle name and nickname:&quot;</span><span class="s2">)</span>
+<span class="s1">a </span><span class="s2">= </span><span class="s1">second_name</span><span class="s2">.</span><span class="s1">strip</span><span class="s2">()</span>
+<span class="s1">b </span><span class="s2">= </span><span class="s1">second_name</span><span class="s2">.</span><span class="s1">capitalize</span><span class="s2">()</span>
+<span class="s1">c </span><span class="s2">= </span><span class="s1">int</span><span class="s2">(</span><span class="s1">len</span><span class="s2">(</span><span class="s1">a</span><span class="s2">))</span>
+<span class="s1">d </span><span class="s2">= </span><span class="s1">int</span><span class="s2">(</span><span class="s1">len</span><span class="s2">(</span><span class="s1">first_name</span><span class="s2">))</span>
+<span class="s1">g </span><span class="s2">= </span><span class="s1">c</span><span class="s2">+</span><span class="s1">d</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s1">c</span><span class="s2">+</span><span class="s1">d</span><span class="s2">)</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s1">first_name</span><span class="s2">[</span><span class="s4">0</span><span class="s2">])</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s1">second_name</span><span class="s2">[</span><span class="s4">0</span><span class="s2">])</span>
+<span class="s1">e </span><span class="s2">= </span><span class="s1">first_name</span><span class="s2">[</span><span class="s4">0</span><span class="s2">].</span><span class="s1">upper</span><span class="s2">()</span>
+<span class="s1">f </span><span class="s2">= </span><span class="s1">second_name</span><span class="s2">[-</span><span class="s4">1</span><span class="s2">].</span><span class="s1">lower</span><span class="s2">()</span>
+<span class="s1">print</span><span class="s2">(</span><span class="s3">&quot;The student ID is&quot;</span><span class="s2">,</span><span class="s1">e</span><span class="s2">+</span><span class="s1">f</span><span class="s2">+</span><span class="s1">str</span><span class="s2">(</span><span class="s1">g</span><span class="s2">))</span>
+
+</pre>
+</body>
+</html>
