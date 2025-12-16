@@ -6,7 +6,7 @@ This project is for practicing Python string concepts using simple examples.
 - Takes a student's full name as input
 - Removes extra spaces
 - Counts the number of letters (excluding spaces)
-- Creates a simple student ID using initials and letter count
+- Creates a simple student ID 
 
 ## What I learned
 - Python string methods
